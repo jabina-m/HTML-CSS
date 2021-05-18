@@ -1,0 +1,307 @@
+/********************HTML *********************************/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="../Final.css/menu.css"/>
+</head>
+     
+<body>
+    
+    <h1>MALDAR HOTEL</h1>
+    <section id="veg">
+    <ul><h1>VEG</h1>
+        <div id="v1">
+        <ul> <h3>soups</h3>
+            
+            <li>veg soup------------100</li>
+            <li>tomato----------------80</li>
+            <li>mashrum soup-----110</li>
+            <li>brokali--------------100</li>
+        </ul>
+        <img  id="img1" src="../IMG/mix-veg-soup.jpg" alt="DP"/>
+    </div>
+    <div id="v2">
+        <ul><h3>staters</h3>
+            <li>panner-------------110</li>
+            <li>mashrum----------100</li>
+            <li>baby con----------120</li>
+            <li>mixed veg--------100</li>
+        </ul>
+        <img  id="img2" src="../IMG/vegstaters.jfif" alt="DP"/>
+
+        <div id="v3">
+        <ul><h3>maincourse</h3>
+            <li>panner fried rice-----100</li>
+            <li>plain rice-------------180</li>
+            <li>veg beriyani---------160</li>
+            <li>veg fried rice--------190</li>
+        </ul>
+        <img  id="img3" src="../IMG/Vegetable-Biryani.jpg" alt="DP"/>
+    </div>
+</section></br></br></br></br>
+
+<section>
+    <h1>NON-VEG</h1>
+        <!-- <div id="v4">
+        <ul> 
+            <h2>soups</h2>
+            <li>chicken soup------110</li>
+            <li>leg soup------------200</li>
+        </ul>
+        <img  id="img4" src="../IMG/mix-veg-soup.jpg" alt="DP"/>
+    </div> -->
+
+        <div id="v4">
+        <ul>
+            <h2>staters</h2>
+            <li>chicken tikka--------------130</li>
+            <li>chicken manchurian-------50</li>
+            <li>chicken dry----------------180</li>
+            <li>pepper chicken------------100</li>
+        </ul>
+        <img  id="img4" src="../IMG/nonveg-staters.jfif" alt="DP"/>
+    </div>
+    <div id="v5">
+        <ul>
+            <h2>maincourse</h2>
+            <li>chiken masala-----------200</li>
+            <li>chiken chilly cravy-----300</li>
+            <li>chiken curry-------------150</li>
+            <li>mutton masala----------230</li>
+        </ul>
+        <img  id="img5" src="../IMG/nonveg-rice.jfif" alt="DP"/>
+    </div>
+    
+</section></br></br></br>
+
+<section>
+    <div id="v6">
+      <h1>COMMON</h1>
+        <ul>
+            <h2>breads</h2>
+            <li>roti-----------------30</li>
+            <li>naan---------------40</li>
+            <li>batter naan--------45</li>
+            <li>bateer roti---------50</li>
+        </ul>
+        <img  id="img6" src="../IMG/nonveg-rice.jfif" alt="DP"/>
+    </div>
+    <div id="v7">
+        <ul>
+            <h2>desorts</h2>
+            <li>venilla------------100</li>
+            <li>mango-------------130</li>
+            <li>stroberry----------170</li>
+            <li>chees cake--------200</li>
+        </ul>
+        <img  id="img7" src="../IMG/desserts.webp" alt="DP"/>
+    </div>
+    <div id="v8">
+        <ul>
+            <h2>beverages</h2>
+            <li>lime soda----------50</li>
+            <li>coke----------------50</li>
+            <li>pipse---------------50</li>
+        </ul>
+        <img  id="img8" src="../IMG/beverages.jfif" alt="DP"/>
+    </div>
+</section>
+    </ul>
+    
+</div>
+</body>
+</html>
+
+/************************************CSS**********************************/
+
+html
+{
+    background-color: cornflowerblue;
+    height: 1800px;
+    width: 700px;
+}
+body
+
+{
+    border: 2px solid none;
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left:300px;
+    height: 1800px;
+    width: 800px;
+    
+    background-size: cover;
+    background-position: center;
+}
+h1
+{
+    position: relative;
+    top: 0px;
+    left: 150px;
+}
+ul
+{
+    list-style-type: none;
+}
+#veg
+{
+    position: relative;
+    top: 0px;
+    left: 50px;
+    
+
+}
+#v1
+{
+    
+    height: 300px;
+    width: 500px;
+}
+#img1
+{
+    position: relative;
+    top:-130px;
+    left:280px;
+    height: 150px;
+    width: 270px;
+}
+#v2
+{
+    
+    /* height: 300px;
+    width: 500px; */
+    position: relative;
+    top:-130px;
+    left:290px;
+    height: 150px;
+    width: 270px;
+}
+#img2
+{
+     position: relative;
+    top:-130px;
+    left:-280px;
+    height: 150px;
+    width: 270px;
+   
+}
+#v3
+{
+    position: relative;
+    top:-130px;
+    left:-290px;
+    height: 300px;
+    width: 500px;
+}
+#img3
+{
+    position: relative;
+    top:-130px;
+    left:280px;
+    height: 150px;
+    width: 270px;
+}
+#v4
+{
+    
+    position: relative;
+    top:30px;
+    left:20px;
+    height: 15px;
+    width: 500px;
+}
+#img4
+{
+    position: relative;
+    top:-145px;
+    left:350px;
+    height: 150px;
+    width: 270px;
+   
+    
+}
+#v5
+{
+    position: relative;
+    top:170px;
+    left:360px;
+    height: 300px;
+    width: 500px;
+}
+#img5
+{
+    position: relative;
+    top:-130px;
+    left:-305px;
+    height: 150px;
+    width: 270px;
+
+}
+#v6
+{
+    
+    position: relative;
+    top:30px;
+    left:20px;
+    height: 15px;
+    width: 500px;
+}
+#img6
+{
+    position: relative;
+    top:-145px;
+    left:350px;
+    height: 150px;
+    width: 270px;
+   
+    
+}
+#v7
+{
+    position: relative;
+    top:208px;
+    left:360px;
+    height: 300px;
+    width: 500px;
+}
+#img7
+{
+    position: relative;
+    top:-130px;
+    left:-305px;
+    height: 150px;
+    width: 270px;
+
+}
+#v8
+{
+    
+    position: relative;
+    top:100px;
+    left:20px;
+    height: 15px;
+    width: 500px;
+}
+#img8
+{
+    position: relative;
+    top:-145px;
+    left:350px;
+    height: 150px;
+    width: 270px;
+   
+    
+}
+/* div
+{
+    position: relative;
+    height: 0px;
+    left:300px;
+} */
